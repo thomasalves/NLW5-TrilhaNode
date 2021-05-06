@@ -1,0 +1,9 @@
+ {
+     "type": "sqlite",
+     "database": "./src/database/database.sqlite",
+     "migrations": ["./src/database/migrations/**.ts"],
+     "entities": ["/Users/thoma/OneDrive/Documentos/Rocketseat/nlw5/projeto_nlw/src/entities/**.ts"],
+     "cli": {
+         "migrationsDir": "/Users/thoma/OneDrive/Documentos/Rocketseat/nlw5/projeto_nlw/src/database/migrations"
+     }
+ }
